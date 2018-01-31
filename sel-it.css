@@ -1,0 +1,175 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.3.2/css/simple-line-icons.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css';
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:300,700';
+/*
+body {
+	font-family: 'Roboto Mono';
+}
+*/
+/*
+body {
+    width: 100%;
+    min-height: 900px;
+    margin: 3em auto;
+    background: rgb(247, 202, 201);
+    background: -moz-linear-gradient(-45deg, rgba(247, 202, 201, 1) 0%, rgba(146, 168, 209, 1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(247, 202, 201, 1) 0%, rgba(146, 168, 209, 1) 100%);
+    background: linear-gradient(135deg, rgba(247, 202, 201, 1) 0%, rgba(146, 168, 209, 1) 100%);
+    
+    font-family: 'Roboto Mono';
+    letter-spacing: 1px;
+}
+*/
+body {
+	background: #F7F5F2 url("http://85.17.252.233/~selit/css/achtergrond.jpg") 2% center no-repeat;
+}
+ul {
+	list-style: none;
+}
+
+
+ul.nameList li h3 a { 
+  display: flex;
+	/*width: 365px;*/
+	height: 25px;
+	margin: 0 0 7px 0;
+
+	background: #F7F5F2 url("http://85.17.252.233/~selit/css/businessman24.png") 2% center no-repeat;
+	font-size: 15px;
+	font-weight: 100;
+	color: rgba(51, 141, 234, 1);
+	padding: 5px 0 0px 46px;
+	text-decoration: none;
+
+	border-top: 1px solid rgba(0, 0, 0, 0.05);
+	cursor: pointer;
+	
+	-webkit-box-shadow: 2px 2px 4px 0px rgba(207,207,207,1);
+	-moz-box-shadow: 2px 2px 4px 0px rgba(207,207,207,1);
+	box-shadow: 2px 2px 4px 0px rgba(207,207,207,1);
+}
+
+
+
+ul.nameList, ul.skillList {
+    margin-bottom: 14px;
+    list-style: none;
+}
+ul.nameList li { 
+	max-width: 150px;
+    min-width: 70px;
+	height: 29px;  
+	margin: 0 0 0px 0;
+	border-left: 3px solid rgba(146, 168, 209, .1);;
+}
+ul.skillList li { 
+	max-width: 264px;
+    min-width: 70px;
+	height: 29px;  
+	margin: 0 0 0px 0;
+	border-left: 3px solid rgba(146, 168, 209, .1);;
+}
+/*
+ul.nameList li:nth-child(3), ul.skillList li:nth-child(3)  { 
+	max-width: 270px;
+    min-width: 70px;
+}
+*/
+
+ul.nameList li a:hover, ul.skillList li a:hover {
+	background-color: rgba(87,165,246,.114); /*#f9f9f9;*/
+	color: #57a5f6;
+	text-shadow: 1px 1px rgba(0,0,0,0.1);
+	background-color: rgba(51, 141, 234, .5);
+	
+}
+
+ul.nameList li:hover, ul.skillList li:hover{
+    border-left: 3px solid #57a5f6;
+    height: 30px;
+}
+
+ul.nameList li h3, ul.skillList li h3 {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+
+/***************/
+
+ul.skillList li h3 a { 
+  display: flex;
+	/*width: 365px;*/
+	height: 25px;
+	margin: 0 0 7px 0;
+
+	background: #F7F5F2 url("http://85.17.252.233/~selit/css/code-icon-24.png") 2% center no-repeat;
+	font-size: 15px;
+	font-weight: 100;
+	color: rgba(51, 141, 234, 1); /*color: rgba(146, 168, 209, 1);*/
+	padding: 5px 0 0px 46px;
+	text-decoration: none;
+
+	border-top: 1px solid rgba(0, 0, 0, 0.05);
+	cursor: pointer;
+	
+	-webkit-box-shadow: 2px 2px 4px 0px rgba(207,207,207,1);
+	-moz-box-shadow: 2px 2px 4px 0px rgba(207,207,207,1);
+	box-shadow: 2px 2px 4px 0px rgba(207,207,207,1);
+}
+
+
+div.skillsLink{
+
+  display: inline-block;
+	width: 100px;
+	height: 25px;
+	margin: 0 0 7px 0;
+
+	/*background: #F7F5F2 url("http://85.17.252.233/~selit/css/code-icon-24.png") 2% center no-repeat;*/
+	font-size: 15px;
+	font-weight: 100;
+	color: rgba(51, 141, 234, 1); /*color: rgba(146, 168, 209, 1);*/
+	padding: 5px 0 0px 46px;
+	text-decoration: none;
+
+	border-top: 1px solid rgba(0, 0, 0, 0.05);
+	border-radius:5px;
+	cursor: pointer;
+	
+	-webkit-box-shadow: 2px 2px 4px 0px rgba(207,207,207,1);
+	-moz-box-shadow: 2px 2px 4px 0px rgba(207,207,207,1);
+	box-shadow: 2px 2px 4px 0px rgba(207,207,207,1);
+}
+
+div.resourcesLink {
+
+  display: inline-block;
+	width: 100px;
+	height: 25px;
+	margin: 0 0 7px 0;
+	
+	font-size: 15px;
+	font-weight: 100;
+	color: rgba(51, 141, 234, 1); /*color: rgba(146, 168, 209, 1);*/
+	padding: 5px 0 0px 46px;
+	text-decoration: none;
+
+	border-top: 1px solid rgba(0, 0, 0, 0.05);
+	border-radius:5px;
+	cursor: pointer;
+	
+	-webkit-box-shadow: 2px 2px 4px 0px rgba(207,207,207,1);
+	-moz-box-shadow: 2px 2px 4px 0px rgba(207,207,207,1);
+	box-shadow: 2px 2px 4px 0px rgba(207,207,207,1);
+}
+
+.resourcesLink a, .skillsLink a{
+	text-decoration: none;
+}
+.resourcesLink, .skillsLink {
+	background-color: #fff;
+}
+
+
+
